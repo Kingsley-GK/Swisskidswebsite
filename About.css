@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.home-bg{
+  background-image: url(https://www.swisskidsacademy.org/_next/static/media/home-banner.e184a387.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  padding: 10px;
+  -webkit-filter:contrast(20%) ;
+  filter: brightness(50%);
+
+
+}
+
+.bg-color{
+     background-color: rgb(35, 35, 103);
+     clear: both;
+     background-size: 100% 100%;
+    
+}
+
+.home-bg>div{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-top: 20px;
+   color: azure;
+   -webkit-filter: brightness(50%);
+   filter: contrast(50%);
+}
+
+
+
+
+.text-con{
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+
+}

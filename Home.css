@@ -1,0 +1,370 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav{
+  background-color: rgb(10, 10, 47);
+  display: flex;
+  justify-content:space-between ;
+  width: 100%;
+  filter: opacity(100px);
+  position: sticky;
+}
+
+nav ul{
+  display: flex;
+}
+
+li{
+  list-style: none;
+  padding: 20px 10px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.gig{
+  color: white;
+  padding: 20px 0;
+}
+
+.holder{
+  padding: 10px;
+}
+
+.result{
+ padding: 10px 20px;
+ border: 2px solid;
+ border-radius: 25px;
+ background-color:rgb(0, 255, 247);
+}
+
+.result:hover{
+  background-color:  rgb(10, 10, 47) ;
+  color: rgb(0, 255, 247) ;
+  border: 2px solid rgb(0, 255, 247);
+}
+
+.centre {
+  background-image: url(https://www.swisskidsacademy.org/_next/static/media/home-banner.e184a387.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 700px;
+  width: 100%;
+  filter: brightness(50%);
+  position: relative;
+}
+
+.centre div {
+  position: absolute;
+  text-align: center;
+  right: 0px;
+  left: 0px;
+  padding: 10px;
+  padding-top: 15%;
+  line-height: 60px;
+  color: white;
+}
+
+.flex {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: rgb(210 66 145);
+  height: 30px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+
+}
+
+.flex {
+  font-weight: 400;
+}
+
+.shrink {
+  background-color: rgb(227 226 234);
+  width: 1px;
+}
+
+.page {
+  background-color: rgb(10, 10, 47);
+  min-height: 600px;
+ 
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  color: white;
+  padding-top: 60px;
+  gap:20px;
+  padding: 70px;
+  margin: 80px;
+  margin-top: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+.sub {
+  background-color: rgb(10, 10, 47);
+  padding: 20px;
+  font-size: 17px;
+  border-radius: 10px;
+  box-shadow: 1px 4px 9px 0 rgb(31, 169, 227);
+  color: whitesmoke;
+}
+
+.phy {
+  background-color: rgb(10, 10, 47);
+  padding: 20px;
+  font-size: 17px;
+  border-radius: 10px;
+  box-shadow: 1px 4px 9px 0 rgb(31, 169, 227);
+  color: whitesmoke;
+}
+
+.dev {
+  background-color: rgb(10, 10, 47);
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 4px 9px 0 rgb(31, 169, 227);
+  color: whitesmoke;
+}
+
+.cai {
+  background-color: rgb(10, 10, 47);
+  padding: 20px;
+  /* font-size: 15px; */
+  border-radius: 10px;
+  box-shadow: 1px 4px 9px 0 rgb(31, 169, 227);
+  padding: 45px;
+  color: whitesmoke;
+}
+
+.sub,.phy,.dev,.cai{
+  justify-content: center;
+  align-items: center;
+}
+.header h3 {
+  color: rgb(0, 255, 247);
+  text-align: center;
+  font-size: 30px;
+  text-transform: capitalize;
+  padding-top: 80px;
+}
+
+.header p {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.id > div{
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+    padding-top: 0;
+    
+}
+
+.mage{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.txt_holder{
+    color: white;
+    padding-left: 10px;
+    border: 2px solid  rgb(10, 10, 47);
+    min-width: 100px;
+    
+
+}
+
+.txt_holder strong{
+    color: rgb(0, 255, 247);
+    font-size: 25px;
+    
+}
+
+.fix{
+   margin-top: 30px;
+   padding: 10px;
+   font-size: 15px;
+   
+}
+
+.fx{
+    background-color:  rgb(0, 255, 247) ;
+    border-radius: 10px;
+}
+
+.pd{
+    background-color: rgb(10, 10, 47);
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+}
+
+.fix:hover{
+    background-color:  rgb(10, 10, 47) ;
+    color: rgb(0, 255, 247) ;
+    border: 2px solid rgb(0, 255, 247);
+}
+
+.items{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 10%;
+    padding-top: 0;
+}
+
+.a_item{
+    color: white;
+    padding-bottom: 25px;
+    
+}
+
+.a_item h3{
+    font-size: 25px;
+    color:  rgb(0, 255, 247);
+    padding-bottom: 10px;
+
+    
+}
+
+.git{
+    padding: 10px;
+    background-color:rgb(0, 255, 247);
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.git:hover{
+    background-color:  rgb(10, 10, 47) ;
+    color: rgb(0, 255, 247) ;
+    border: 2px solid rgb(0, 255, 247);
+}
+
+.d_item{
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    
+    
+}
+
+.i{
+    background-color: rgb(210 66 145);
+    padding: 20px;
+    border-radius: 11px;
+    font-size: medium;
+    text-align: left;
+    
+}
+
+.mid{
+    color: white;
+    padding: 10%;
+    padding-top: 0;
+    text-align: center;
+    
+
+}
+
+.ui{
+    padding: 15px;
+    /* font-size: small; */
+
+}
+
+.h3{
+    color:  rgb(0, 255, 247);
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.spa{
+    padding: 10px;
+    border: 2px solid none;
+    border-radius: 40px;
+    background-color: rgb(59, 57, 57);
+    /* margin: 40px; */
+    
+}
+
+.news{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.h3{
+  color:  rgb(0, 255, 247);
+}
+
+.news p{
+  color: grey;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 5rem;
+  justify-content: center;
+  align-content: center;
+
+
+}
+
+.container div img{
+  height: 250px;
+  width: 400px;
+  border-radius: 7px;
+
+}
+
+.contain{
+  border: 1px solid;
+  box-sizing: border-box;
+  border-radius: 2px;
+  text-align: center;
+  box-shadow: 1px 3px 7px 0 rgb(31, 169, 227);
+  
+}
+
+.contain p{
+  color: white;
+  padding-top: 15px;
+  
+}
+
+.link{
+  text-align: start;
+  padding-left: 30px;
+}
+
+.tag{
+  color: rgb(0, 255, 247);
+  font-size: 15px;
+}
+
+.title{
+  text-align: start;
+  padding-right: 90px;
+
+}
+
+
+
+
+
+
