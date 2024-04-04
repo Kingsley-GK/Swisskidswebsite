@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* .background{
+   background-image: url();
+   background-size: 100% 100%;
+
+}  */
+
+.sections{
+    background-color: rgba(8, 26, 46, 0.988);
+    height: 600vh;
+}

@@ -4,7 +4,7 @@
 }
 
 nav{
-  background-color: rgb(10, 10, 47);
+  background-color:  rgba(8, 26, 46, 0.988);
   display: flex;
   justify-content:space-between ;
   width: 100%;
@@ -21,9 +21,16 @@ li{
   padding: 20px 10px;
 }
 
-a{
-  color: white;
+.tag{
+  color: azure;
   text-decoration: none;
+}
+
+.tag:hover{
+  color: black;
+  padding: 25px;
+  background-color: rgb(220, 228, 228);
+  height: 100px;
 }
 
 .gig{
@@ -43,7 +50,7 @@ a{
 }
 
 .result:hover{
-  background-color:  rgb(10, 10, 47) ;
+  background-color:  rgba(8, 26, 46, 0.988) ;
   color: rgb(0, 255, 247) ;
   border: 2px solid rgb(0, 255, 247);
 }
@@ -90,7 +97,7 @@ a{
 }
 
 .page {
-  background-color: rgb(10, 10, 47);
+  background-color: rgba(8, 26, 46, 0.988);
   min-height: 600px;
  
 }
@@ -109,7 +116,7 @@ a{
 }
 
 .sub {
-  background-color: rgb(10, 10, 47);
+  background-color: rgba(8, 26, 46, 0.988);
   padding: 20px;
   font-size: 17px;
   border-radius: 10px;
@@ -118,7 +125,7 @@ a{
 }
 
 .phy {
-  background-color: rgb(10, 10, 47);
+  background-color: rgba(8, 26, 46, 0.988);
   padding: 20px;
   font-size: 17px;
   border-radius: 10px;
@@ -127,7 +134,7 @@ a{
 }
 
 .dev {
-  background-color: rgb(10, 10, 47);
+  background-color:  rgba(8, 26, 46, 0.988);
   padding: 20px;
   font-size: 20px;
   border-radius: 10px;
@@ -136,7 +143,7 @@ a{
 }
 
 .cai {
-  background-color: rgb(10, 10, 47);
+  background-color: rgba(8, 26, 46, 0.988);
   padding: 20px;
   /* font-size: 15px; */
   border-radius: 10px;
@@ -180,7 +187,7 @@ a{
 .txt_holder{
     color: white;
     padding-left: 10px;
-    border: 2px solid  rgb(10, 10, 47);
+    border: 2px solid   rgba(8, 26, 46, 0.988);
     min-width: 100px;
     
 
@@ -205,14 +212,14 @@ a{
 }
 
 .pd{
-    background-color: rgb(10, 10, 47);
+    background-color: rgba(8, 26, 46, 0.988);
     border: 2px solid white;
     border-radius: 10px;
     color: white;
 }
 
 .fix:hover{
-    background-color:  rgb(10, 10, 47) ;
+    background-color: rgba(8, 26, 46, 0.988) ;
     color: rgb(0, 255, 247) ;
     border: 2px solid rgb(0, 255, 247);
 }
@@ -247,7 +254,7 @@ a{
 }
 
 .git:hover{
-    background-color:  rgb(10, 10, 47) ;
+    background-color:   rgba(8, 26, 46, 0.988) ;
     color: rgb(0, 255, 247) ;
     border: 2px solid rgb(0, 255, 247);
 }
@@ -281,9 +288,7 @@ a{
 
 .ui{
     padding: 15px;
-    /* font-size: small; */
-
-}
+  }
 
 .h3{
     color:  rgb(0, 255, 247);
@@ -352,9 +357,10 @@ a{
   padding-left: 30px;
 }
 
-.tag{
+.sand{
   color: rgb(0, 255, 247);
   font-size: 15px;
+  text-decoration: none;
 }
 
 .title{
