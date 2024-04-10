@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -17,20 +18,8 @@
 }
 
 .bg-color{
-     background-color: rgb(35, 35, 103);
-     clear: both;
-     background-size: 100% 100%;
-    
-}
-
-.home-bg>div{
-    text-align: center;
-    text-transform: capitalize;
-    font-weight: 400;
-    margin-top: 20px;
-   color: azure;
-   -webkit-filter: brightness(50%);
-   filter: contrast(50%);
+    background-color: rgba(8, 26, 46, 0.988);
+    height: 300vh;
 }
 
 
@@ -42,3 +31,46 @@
     color: white;
 
 }
+
+.pro{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 60px;
+
+}
+
+.pag{
+    color: rgb(0, 255, 247);
+    font-size: larger;
+    font-weight: bold;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.change{
+    --tw-text-opacity: 1;
+    color: rgb(203 213 225 / var(--tw-text-opacity));
+    justify-content: center;
+}
+
+.source{
+    width: 350px;
+    height: 280px;
+    border: none;
+    border-radius: 10px;
+}
+
+.clean{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.rage{
+    color: rgb(0, 255, 247);
+    font-size: larger;
+    font-weight: bold;
+}
+

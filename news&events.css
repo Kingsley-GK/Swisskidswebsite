@@ -3,13 +3,191 @@ body{
     padding: 0;
 }
 
-/* .background{
-   background-image: url();
-   background-size: 100% 100%;
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-}  */
+.background{
+  background-color: turquoise;
+  height: 200px;
+
+}
 
 .sections{
     background-color: rgba(8, 26, 46, 0.988);
     height: 600vh;
 }
+
+.compose{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 45px;
+    justify-content: center;
+    padding-top: 60px; 
+}
+
+.compose img{
+    width: 350px;
+    height: 280px;
+    border: none;
+    border-radius: 10px;
+}
+
+.caps{
+    text-transform: capitalize;
+    color:  rgb(0, 255, 247);
+    font-size: larger;  
+}
+
+.caps2{
+    display: flex;
+    gap: 15px;
+    
+}
+
+.anchor{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+.anchor:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.part{
+    color: white;
+}
+
+.care{
+    --tw-text-opacity: 1;
+    color: rgb(203 213 225 / var(--tw-text-opacity));
+}
+
+.swiss a{
+    color: white;
+    text-decoration: none;
+}
+
+.swiss a:hover{
+    color:  rgb(0, 255, 247);
+}
+
+.compose2{
+    display: inline-flex;
+    gap: 15px;
+}
+
+.compose2 img{
+    width: 350px;
+    height: 280px;
+    border: none;
+    border-radius: 10px;
+}
+
+.summer{
+    color: white;
+}
+
+.coach{
+  font-size: larger;  
+  font-weight: bold;
+}
+
+.coach:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.press1 img{
+    width: 350px;
+    height: 280px;
+    border: none;
+    border-radius: 10px;
+}
+
+.press1{
+    display: inline-flex;
+    gap: 15px;
+}
+
+.allow{
+    color: white;
+    font-size: larger;  
+    font-weight: bold;
+}
+
+.footer{
+    padding-top: 150px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-left: 250px;
+
+}
+
+.font img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.web{
+    font-weight: bold;
+    color: white;
+    font-size: large;
+
+}
+
+.kids{
+    display: inline-flex;
+    gap: 15px;
+}
+
+.kids img{
+    width: 90px;
+    height: 90px;
+    border-radius: 8px;
+}
+
+.about{
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+    padding-top: 15px;
+
+}
+
+.contact{
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+}
+
+.roge{
+    padding-left: 10%;
+}
+
+.mass{
+    padding-left: 20px;
+}
+
+.grey{
+    justify-content: center;
+    margin: 80px;
+}
+
+
+
+
+
+
+
+
