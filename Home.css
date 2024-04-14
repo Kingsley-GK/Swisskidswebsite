@@ -6,13 +6,13 @@
 }
 
 nav{
-  background-color:  rgba(8, 26, 46, 0.988);
+  background-color: rgba(8, 26, 46, 0.988);
   display: flex;
   justify-content:space-between ;
   width: 100%;
   filter: opacity(100px);
-  position: sticky;
-}
+  position: fixed;
+} 
 
 nav ul{
   display: flex;
@@ -346,6 +346,13 @@ li{
   text-align: center;
   box-shadow: 1px 3px 7px 0 rgb(31, 169, 227);
   
+}
+
+.title{
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  font-weight: bold;
 }
 
 .contain p{
