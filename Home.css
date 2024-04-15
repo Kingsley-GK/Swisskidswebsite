@@ -63,7 +63,7 @@ li{
   background-repeat: no-repeat;
   min-height: 700px;
   width: 100%;
-  filter: brightness(50%);
+  filter: brightness(70%);
   position: relative;
 }
 
@@ -73,9 +73,9 @@ li{
   right: 0px;
   left: 0px;
   padding: 10px;
-  padding-top: 15%;
+  padding-top: 0;
   line-height: 60px;
-  color: white;
+  color: grey;
 }
 
 .flex {
