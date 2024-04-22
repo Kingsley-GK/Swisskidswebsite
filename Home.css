@@ -8,14 +8,22 @@
 nav{
   background-color: rgba(8, 26, 46, 0.988);
   display: flex;
-  justify-content:space-between ;
+  justify-content: space-between;
   width: 100%;
+  height: auto;
   filter: opacity(100px);
   position: fixed;
+  box-shadow: 10px 3px;
+  gap: 10%;
+  justify-content: center;
 } 
 
 nav ul{
   display: flex;
+}
+
+ul{
+  padding-top: 10px;
 }
 
 li{
@@ -38,10 +46,24 @@ li{
 .gig{
   color: white;
   padding: 20px 0;
+  display: flex;
+  gap: 10px;
+
+}
+
+.gig img{
+  border-radius: 30px;
+}
+
+.giga{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 .holder{
-  padding: 10px;
+  margin-top: 20px;
 }
 
 .result{
@@ -49,12 +71,29 @@ li{
  border: 2px solid;
  border-radius: 25px;
  background-color:rgb(0, 255, 247);
+ font-weight: bold;
 }
 
 .result:hover{
   background-color:  rgba(8, 26, 46, 0.988) ;
   color: rgb(0, 255, 247) ;
   border: 2px solid rgb(0, 255, 247);
+  cursor: pointer;
+}
+
+.space{
+  padding: 10px 20px;
+  border: 2px solid;
+  border-radius: 25px;
+  background-color:rgb(0, 255, 247);
+  font-weight: bold;
+}
+
+.space:hover{
+  background-color:  rgba(8, 26, 46, 0.988) ;
+  color: rgb(0, 255, 247) ;
+  border: 2px solid rgb(0, 255, 247);
+  cursor: pointer;
 }
 
 .centre {
@@ -65,6 +104,10 @@ li{
   width: 100%;
   filter: brightness(70%);
   position: relative;
+}
+
+.youtube{
+  color:rgb(0, 255, 247);
 }
 
 .centre div {
@@ -85,8 +128,7 @@ li{
   height: 30px;
   color: white;
   text-align: center;
-  padding: 20px;
-
+  padding: 25px;
 }
 
 .flex {
@@ -98,9 +140,14 @@ li{
   width: 1px;
 }
 
+.note{
+  background-color: rgb(227 226 234);
+  width: 1px;
+}
+
 .page {
   background-color: rgba(8, 26, 46, 0.988);
-  min-height: 600px;
+  height: 360vh;
  
 }
 
@@ -147,7 +194,6 @@ li{
 .cai {
   background-color: rgba(8, 26, 46, 0.988);
   padding: 20px;
-  /* font-size: 15px; */
   border-radius: 10px;
   box-shadow: 1px 4px 9px 0 rgb(31, 169, 227);
   padding: 45px;
@@ -237,16 +283,13 @@ li{
 .a_item{
     color: white;
     padding-bottom: 25px;
-    
 }
 
 .a_item h3{
     font-size: 25px;
     color:  rgb(0, 255, 247);
     padding-bottom: 10px;
-
-    
-}
+  }
 
 .git{
     padding: 10px;
@@ -266,8 +309,6 @@ li{
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
-    
-    
 }
 
 .i{
@@ -299,12 +340,10 @@ li{
 }
 
 .spa{
-    padding: 10px;
-    border: 2px solid none;
-    border-radius: 40px;
-    background-color: rgb(59, 57, 57);
-    /* margin: 40px; */
-    
+  padding: 10px;
+  border: 2px solid none;
+  border-radius: 40px;
+  background-color: rgb(59, 57, 57);
 }
 
 .news{
@@ -377,6 +416,85 @@ li{
   padding-right: 90px;
 
 }
+
+
+.footer{
+  padding-top: 150px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-left: 250px;
+
+}
+
+.font img{
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.web{
+  font-weight: bold;
+  color: white;
+  font-size: large;
+
+}
+
+.kids{
+  display: inline-flex;
+  gap: 15px;
+}
+
+.kids img{
+  width: 90px;
+  height: 90px;
+  border-radius: 8px;
+}
+
+.about{
+  text-transform: capitalize;
+  color: white;
+  font-weight: bold;
+  color: white;
+  font-size: larger;
+  padding-top: 15px;
+
+}
+
+.contact{
+  text-transform: capitalize;
+  color: white;
+  font-weight: bold;
+  color: white;
+  font-size: larger;
+}
+
+.roge{
+  padding-left: 10%;
+}
+
+.mass{
+  padding-left: 20px;
+}
+
+.grey{
+  color: white;
+  justify-content: center;
+  margin: 80px;
+}
+
+.care{
+  --tw-text-opacity: 1;
+  color: rgb(203 213 225 / var(--tw-text-opacity));
+  padding-top: 30px;
+}
+
+.axis{
+  color: white;
+  text-decoration: none;
+}
+
+
 
 
 

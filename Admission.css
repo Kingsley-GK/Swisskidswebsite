@@ -1,0 +1,345 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+nav{
+    background-color: rgba(8, 26, 46, 0.988);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    filter: opacity(100px);
+    position: fixed;
+    box-shadow: 10px 3px;
+    gap: 10%;
+    justify-content: center;
+  } 
+  
+  .divide{
+    display: flex;
+  }
+  
+  .divide{
+    padding-top: 10px;
+  }
+  
+    .great{
+    list-style: none;
+    padding: 20px 10px;
+  }
+  
+  .tag{
+    color: azure;
+    text-decoration: none;
+  }
+  
+  .tag:hover{
+    color: black;
+    padding: 25px;
+    background-color: rgb(220, 228, 228);
+    height: 20px;
+  }
+  
+  .gig{
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    gap: 10px;
+  
+  }
+  
+  .gig img{
+    border-radius: 30px;
+  }
+  
+  .giga{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .holder{
+    margin-top: 20px;
+  }
+  
+  .result{
+   padding: 10px 20px;
+   border: 2px solid;
+   border-radius: 25px;
+   background-color:rgb(0, 255, 247);
+   font-weight: bold;
+  }
+  
+  .result:hover{
+    background-color:  rgba(8, 26, 46, 0.988) ;
+    color: rgb(0, 255, 247) ;
+    border: 2px solid rgb(0, 255, 247);
+    cursor: pointer;
+  }
+  
+  .space{
+    padding: 10px 20px;
+    border: 2px solid;
+    border-radius: 25px;
+    background-color:rgb(0, 255, 247);
+    font-weight: bold;
+  }
+  
+  .space:hover{
+    background-color:  rgba(8, 26, 46, 0.988) ;
+    color: rgb(0, 255, 247) ;
+    border: 2px solid rgb(0, 255, 247);
+    cursor: pointer;
+  }
+  
+
+.top {
+  background-image: url(https://www.swisskidsacademy.org/_next/static/media/home-banner.e184a387.jpg);
+  background-position: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  filter: brightness(60%);
+}
+
+.top div{
+    position: relative;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+
+.top div h1{
+    color: white;
+    padding-top: 20px;
+}
+
+.top p{
+    text-transform: capitalize;
+    line-height: 40px;
+}
+
+.top h1{
+    font-weight: bolder;
+}
+
+.content {
+  background-color:  rgba(8, 26, 46, 0.988);
+  height: 250vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 3.5rem;
+  justify-content: center;
+  padding-top: 20%;
+  flex-wrap: nowrap;
+}
+
+.age {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.age h4 {
+  color: white;
+  font-weight: bold;
+  padding-bottom: 20px;
+  font-size: larger;
+  color: rgb(0, 255, 247);
+}
+
+.app {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  color: rgb(203 213 225 / var(--tw-text-opacity));
+  /* color: lightgray; */
+  text-transform: capitalize;
+  background-color: rgba(0, 255, 247);
+}
+
+.app:hover{
+    background-color: rgb(15, 23, 42) ;
+    border: 1px solid  rgba(0, 255, 247);
+    color:  rgba(0, 255, 247);
+}
+
+.a_tag{
+    color:(rgb(203 213 225 / var(--tw-text-opacity)));
+}
+
+.known ul li p{
+    color: lightgray;
+}
+
+.known2 ul li p{
+    color: lightgray;
+}
+
+.known3 ul li p{
+    color: lightgray;
+}
+
+.known4 ul li p{
+    color: lightgray;
+}
+
+.known5 ul li p{
+    color: lightgray;
+}
+
+.known6 ul li p{
+    color: lightgray;
+}
+
+.known7 ul li p{
+    color: lightgray;
+}
+
+.known8 ul li p{
+    color: lightgray;
+}
+
+.known9 ul li p{
+    color: lightgray;
+}
+
+.known10 ul li p{
+    color: lightgray;
+}
+
+.known11 ul li p{
+    color: lightgray;
+}
+
+.known li{
+    color: white;
+}
+
+.known2 li{
+    color: white;
+}
+
+.known3 li{
+    color: white;
+}
+
+.known4 li{
+    color: white;
+}
+
+.known5 li{
+    color: white;
+}
+
+.known6 li{
+    color: white;
+}
+
+.known7 li{
+    color: white;
+}
+
+.known8 li{
+    color: white;
+}
+
+.known9 li{
+    color: white;
+}
+
+.known10 li{
+    color: white;
+}
+
+.known11 li{
+    color: white;
+}
+
+.footer{
+    padding-top: 150px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-left: 250px;
+    background-color:  rgba(8, 26, 46, 0.988);
+    background-size: 100% 100%;
+    margin-left: 0;
+
+}
+
+.font img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.web{
+    font-weight: bold;
+    color: white;
+    font-size: large;
+
+}
+
+.kids{
+    display: inline-flex;
+    gap: 15px;
+}
+
+.kids img{
+    width: 90px;
+    height: 90px;
+    border-radius: 35px;
+}
+
+.about{
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+    padding-top: 15px;
+
+}
+
+.contact{
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+}
+
+.roge{
+    padding-left: 10%;
+}
+
+.mass{
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.grey{
+    justify-content: center;
+}
+
+.care{
+    --tw-text-opacity: 1;
+    color: rgb(203 213 225 / var(--tw-text-opacity));
+    padding-top: 30px;
+}
+
+.axis{
+    color: white;
+    text-decoration: none;
+}
+
+
+
